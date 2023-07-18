@@ -92,3 +92,6 @@ target/
 
 # Models
 .bin
+
+# Env
+env/

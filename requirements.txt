@@ -8,3 +8,12 @@ chromadb
 tiktoken
 faiss-cpu
 wikipedia
+pandas
+jupyter-client
+jupyter-core
+pyzmq
+tornado
+traitlets
+ipykernel
+pygments
+nest-asyncio
