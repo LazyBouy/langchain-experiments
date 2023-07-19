@@ -33,11 +33,16 @@ completion = openai.ChatCompletion.create(
     ],
 )
 
-output = completion.choices[0].message.content
+output_msg = completion.choices[0].message.content
+print(output_msg)
+
+output = completion.choices[0].message
 print(output)
 
 # --------------------------------------------------------------
 # Use OpenAI’s Function Calling Feature
+#           - It's a description of function that does not exist yet
+#           -  
 # --------------------------------------------------------------
 
 function_descriptions = [
@@ -78,7 +83,10 @@ output = completion.choices[0].message
 print(output)
 
 # --------------------------------------------------------------
-# Add a Function
+# Add a Function - 
+# In Real world scenario we need to modify the function to 
+# extract the flight details in some way and  return the data
+# in a pre-defined function. Below am example 'stub'
 # --------------------------------------------------------------
 
 

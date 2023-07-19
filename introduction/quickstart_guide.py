@@ -15,7 +15,7 @@ load_dotenv(find_dotenv())
 # LLMs: Get predictions from a language model
 # --------------------------------------------------------------
 
-llm = OpenAI(model_name="text-davinci-003")
+llm = OpenAI(model_name="text-davinci-003", temperature=0)
 prompt = "Write a poem about python and ai"
 print(llm(prompt))
 
