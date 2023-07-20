@@ -17,3 +17,5 @@ traitlets
 ipykernel
 pygments
 nest-asyncio
+huggingface_hub
+transformers
