@@ -113,3 +113,5 @@ agent.run(
 agent.run(
     "what is the median salary of senior data scientists for df2, given there is a 10% increment?"
 )
+
+agent.run("Could you do a trend analysis for the data?")
