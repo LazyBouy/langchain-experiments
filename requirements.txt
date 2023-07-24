@@ -17,4 +17,3 @@ traitlets
 ipykernel
 pygments
 nest-asyncio
-tabulate
