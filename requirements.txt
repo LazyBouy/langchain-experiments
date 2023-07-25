@@ -17,3 +17,12 @@ traitlets
 ipykernel
 pygments
 nest-asyncio
+transformers
+accelerate
+einops 
+langchain 
+xformers 
+bitsandbytes
+# torch -i https://download.pytorch.org/whl/cu117
+# torchvision -i https://download.pytorch.org/whl/cu117
+# torchaudio -i https://download.pytorch.org/whl/cu117
