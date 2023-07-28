@@ -94,7 +94,4 @@ target/
 .bin
 
 # Env
-env/
-env2/
-env-11/
-env-10/
+*env*/
