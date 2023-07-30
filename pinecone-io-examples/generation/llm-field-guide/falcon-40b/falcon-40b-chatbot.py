@@ -35,7 +35,8 @@
 from torch import cuda, bfloat16
 import transformers
 
-model_name = 'tiiuae/falcon-40b-instruct'
+#model_name = 'tiiuae/falcon-40b-instruct'
+model_name = 'tiiuae/falcon-7b-instruct'
 
 device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
 
